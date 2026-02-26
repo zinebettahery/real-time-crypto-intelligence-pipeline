@@ -1,0 +1,9 @@
+# Same libraries already used in news_producer.py and trades_producer.py
+confluent-kafka==2.3.0
+websocket-client==1.7.0
+requests==2.31.0
+python-dotenv==1.0.1
+
+# For validate_and_store task (Parquet output)
+pandas==2.2.0
+pyarrow==15.0.0
